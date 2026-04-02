@@ -1,0 +1,46 @@
+
+<!-- HTML document structure with form validation -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Character encoding and viewport for responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Registration form with input validation -->
+    <form>
+      <fieldset>
+        <legend>Register Form</legend>
+        <!-- Name input field -->
+        <div><input type="text" placeholder="Name" required /></div>
+        <!-- Phone number input: exactly 10 digits -->
+        <div>
+          <input
+            type="tel"
+            placeholder="Phone"
+            minlength="10"
+            maxlength="10"
+            required
+          />
+        </div>
+        <!-- Email input with validation -->
+        <div><input type="email" placeholder="Email" required /></div>
+        <!-- Date picker with minimum date constraint -->
+        <div><input type="date" required min="2025-12-01" /></div>
+        <!-- Gender selection using radio buttons -->
+        <div>
+          <input type="radio" id="Male" name="radio" value="Male" />
+          <label for="Male">Male</label>
+          <input type="radio" id="Female" name="radio" value="Female" />
+          <label for="Female">Female</label>
+          <input type="radio" id="Other" name="radio" value="Other" />
+          <label for="Other">Other</label>
+        </div>
+        <!-- Submit button to register -->
+        <input type="Submit" value="Register" />
+      </fieldset>
+    </form>
+  </body>
+</html>
