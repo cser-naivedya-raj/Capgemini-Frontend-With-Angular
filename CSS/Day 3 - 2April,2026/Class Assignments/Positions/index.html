@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position Demo - Updated Data</title>
+
+    <style>
+      body {
+        height: 2000px;
+        font-family: Arial;
+      }
+
+      h2 {
+        margin: 20px;
+      }
+
+      .container {
+        height: 200px;
+        width: 300px;
+        border: 3px solid black;
+        margin: 40px;
+        position: relative;
+      }
+
+      .box {
+        height: 60px;
+        width: 60px;
+        background: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .static {
+        position: static;
+        top: 20px;
+        left: 20px;
+      }
+
+      .relative {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        background: blue;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: green;
+      }
+
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: purple;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 0;
+        background: orange;
+        padding: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS Positioning Demo (Updated)</h1>
+
+    <h2>Static (default)</h2>
+    <div class="container">
+      <div class="box static">static</div>
+    </div>
+
+    <h2>Relative</h2>
+    <div class="container">
+      <div class="box relative">relative</div>
+    </div>
+
+    <h2>Absolute</h2>
+    <div class="container">
+      <div class="box absolute">absolute</div>
+    </div>
+
+    <div class="sticky">sticky top text updated</div>
+
+    <div class="box fixed">fixed</div>
+  </body>
+</html>

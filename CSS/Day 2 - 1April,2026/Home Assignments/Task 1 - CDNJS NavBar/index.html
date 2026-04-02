@@ -1,127 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CDNjs Navbar</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cdnjs Navbar</title>
+  <style>
+    /* Base styles to replicate the dark environment */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #222; /* Outer background to see the nav clearly */
+    }
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    /* Main Navigation Container */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #383838; /* The dark grey from the image */
+      padding: 0 30px;
+      height: 65px;
+    }
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+    /* Left Section: Logo and Icons */
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
 
-      body {
-        background: #2b2b2b;
-        font-family: "Segoe UI", Arial, sans-serif;
-      }
+    /* Logo Styling */
+    .logo {
+      font-size: 26px;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
 
-      nav {
-        height: 56px;
-        padding: 0 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #2f2f2f;
-        border-bottom: 1px solid #3a3a3a;
-      }
+    .logo .bracket { 
+      color: #999; 
+      font-weight: 400;
+    }
 
-      .nav-left,
-      .nav-right,
-      .nav-icons {
-        display: flex;
-        align-items: center;
-      }
+    .logo .cdn { 
+      color: #e65100; /* The distinct orange */
+    } 
 
-      .nav-left {
-        gap: 18px;
-      }
-      .nav-icons {
-        gap: 14px;
-      }
-      .nav-right {
-        gap: 28px;
-      }
+    .logo .js { 
+      color: #ffffff; 
+    }
 
-      .logo {
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #e0e0e0;
-      }
+    /* Social Icons Styling */
+    .social-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #d1d5db; /* Light grey */
+    }
 
-      .logo .bracket {
-        color: #9a9a9a;
-      }
-      .logo .cdn {
-        color: #e05c3a;
-      }
+    .social-icons svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+      cursor: pointer;
+      transition: color 0.2s ease;
+    }
 
-      .nav-icons a,
-      .nav-right a {
-        text-decoration: none;
-        transition: 0.2s;
-      }
+    .social-icons svg:hover {
+      color: #ffffff;
+    }
 
-      .nav-icons a,
-      .nav-right a {
-        color: #fff;
-      }
+    /* Right Section: Navigation Links */
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
 
-      .nav-icons a {
-        font-size: 17px;
-      }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      margin: 0;
+      padding: 0;
+    }
 
-      .nav-right a {
-        font-size: 14px;
-        font-weight: 600;
-      }
+    .nav-links li a {
+      text-decoration: none;
+      color: #f3f4f6; /* Off-white for unhovered links */
+      font-size: 15px;
+      transition: opacity 0.2s ease;
+    }
 
-      .nav-icons a:hover,
-      .nav-right a:hover {
-        color: #9a9a9a;
-      }
+    .nav-links li a:hover {
+      opacity: 0.8;
+    }
 
-      .status-dot {
-        width: 8px;
-        height: 8px;
-        background: #4caf50;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: 4px;
-      }
-    </style>
-  </head>
+    /* Specific styling for the Status link and its green dot */
+    .status-link {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
 
-  <body>
-    <nav>
-      <div class="nav-left">
-        <a href="#" class="logo">
-          <span class="bracket">&lt;</span><span class="cdn">cdn</span>js<span
-            class="bracket"
-            >&gt;</span
-          >
-        </a>
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #2ecc71; /* Status green */
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
 
-        <div class="nav-icons">
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-        </div>
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">
+        <span class="bracket">&lt;</span><span class="cdn">cdn</span><span class="js">js</span><span class="bracket">&gt;</span>
       </div>
-
-      <div class="nav-right">
-        <a href="#">About</a>
-        <a href="#">Libraries</a>
-        <a href="#">API</a>
-        <a href="#">GitHub</a>
-        <a href="#">Status <span class="status-dot"></span></a>
+      <div class="social-icons">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.67.41 3.25 1.15 4.65L2 22l5.35-1.15C8.75 21.59 10.33 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.48 0-2.89-.36-4.13-1l-3.32.72.72-3.32C4.36 14.89 4 13.48 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm-3-9h6v2H9v-2zm0-4h6v2H9V7z"></path></svg>
       </div>
-    </nav>
-  </body>
+    </div>
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Libraries</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#" class="status-link">Status <span class="status-dot"></span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+</body>
 </html>
