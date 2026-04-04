@@ -1,6 +1,6 @@
 # Capgemini Frontend With Angular 🚀
 
-A day-by-day learning repository documenting my frontend development journey as part of the **Capgemini Training Program**. This repository covers the fundamentals of web development — HTML, CSS — and will progressively move into Angular as the course advances.
+A day-by-day learning repository documenting my frontend development journey as part of the **Capgemini Training Program**. This repository covers the fundamentals of web development — HTML, CSS, JavaScript — and will progressively move into Angular as the course advances.
 
 ---
 
@@ -10,11 +10,24 @@ A day-by-day learning repository documenting my frontend development journey as 
 Capgemini-Frontend-With-Angular/
 │
 ├── HTML - Day 1/               # Introduction to HTML
-│   └── (HTML practice files)
+│   ├── Class Assignments/
+│   └── Home Assignments/
 │
-└── CSS/
-    └── Day 2 - 1April,2026/    # Introduction to CSS
-        └── (CSS practice files)
+├── CSS/
+│   ├── Day 2 - 1April,2026/    # Introduction to CSS
+│   │   ├── Class Assignments/
+│   │   └── Home Assignments/
+│   └── Day 3 - 2April,2026/    # Advanced CSS
+│       ├── Class Assignments/
+│       └── Home Assignments/
+│
+└── JS/
+    ├── Day 3 - 2April,2026/    # Introduction to JavaScript
+    │   ├── Class Assignments/
+    │   └── Home Assignments/
+    └── Day 4 - 3April,2026/    # Advanced JavaScript
+        ├── Class Assignments/
+        └── Home Assignments/
 ```
 
 ---
@@ -25,7 +38,8 @@ Capgemini-Frontend-With-Angular/
 |-----|-------|--------|
 | Day 1 | HTML Basics | `HTML - Day 1/` |
 | Day 2 | CSS Fundamentals | `CSS/Day 2 - 1April,2026/` |
-| Coming soon... | JavaScript | — |
+| Day 3 | CSS Advanced & JS Basics | `CSS/Day 3 - 2April,2026/` and `JS/Day 3 - 2April,2026/` |
+| Day 4 | JavaScript Advanced | `JS/Day 4 - 3April,2026/` |
 | Coming soon... | Angular | — |
 
 ---
@@ -34,7 +48,7 @@ Capgemini-Frontend-With-Angular/
 
 - **HTML5** — Structure and semantics of web pages
 - **CSS3** — Styling, layouts, and responsive design
-- **JavaScript** *(upcoming)* — Interactivity and DOM manipulation
+- **JavaScript** — Interactivity and DOM manipulation
 - **Angular** *(upcoming)* — Component-based frontend framework
 
 ---
