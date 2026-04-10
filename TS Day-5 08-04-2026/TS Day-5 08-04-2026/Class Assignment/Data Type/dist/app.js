@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 let age = 22;
-let userName = "Gautam";
+let userName = "Naivedya";
 let isActive = true;
 let nothing = null;
 let notDefined = undefined;
 let numbers = [1, 2, 3];
-let person = ["Gautam", 22];
+let person = ["Naivedya", 22];
 let user = {
-    name: "Gautam",
+    name: "Naivedya",
     age: 22
 };
 let value = 10;
@@ -28,7 +28,7 @@ var Role;
 })(Role || (Role = {}));
 let role = Role.Admin;
 let u1 = {
-    name: "Gautam",
+    name: "Naivedya",
     age: 22
 };
 console.log(age, userName, isActive, numbers, person, user, value, data, id, role, u1);

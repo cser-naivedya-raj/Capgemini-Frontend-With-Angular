@@ -40,13 +40,13 @@ function identity(value) {
 // Usage
 console.log(add(2, 3));
 console.log(multiply(2, 3));
-greet("Gautam");
-greetUser("Gautam");
-greetWithDefault("Gautam");
-console.log(getUser({ name: "Gautam", age: 22 }));
+greet("Naivedya");
+greetUser("Naivedya");
+greetWithDefault("Naivedya");
+console.log(getUser({ name: "Naivedya", age: 22 }));
 console.log(addFn(5, 5));
 console.log(sum(1, 2, 3, 4));
 console.log(combine(10, 20));
-console.log(combine("Hello ", "Gautam"));
+console.log(combine("Hello ", "Naivedya"));
 console.log(identity("TypeScript"));
 console.log(identity(123));
