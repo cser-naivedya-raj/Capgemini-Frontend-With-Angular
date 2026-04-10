@@ -29,13 +29,19 @@ Capgemini-Frontend-With-Angular/
 │       ├── Class Assignments/
 │       └── Home Assignments/
 │
-└── TS Day-5 08-04-2026/        # TypeScript and Angular
-    ├── Angular Day-5 08-04-2026/
-    │   ├── Class Assignment/
-    │   └── Home Assignment/
-    └── TS Day-5 08-04-2026/
-        ├── Class Assignment/
-        └── Home Assignment/
+├── TS Day-5 08-04-2026/        # TypeScript and Angular - Day 5
+│   ├── Angular Day-5 08-04-2026/
+│   │   ├── Class Assignment/
+│   │   └── Home Assignment/
+│   └── TS Day-5 08-04-2026/
+│       ├── Class Assignment/
+│       └── Home Assignment/
+│
+└── Angular Day-6 09-04-2026/   # Advanced Angular - Day 6
+    ├── Class Assignment/
+    └── Home Assignment/
+        ├── Task-1 Switch Code/
+        └── Task-2 Table List Card/
 ```
 
 ---
@@ -49,6 +55,7 @@ Capgemini-Frontend-With-Angular/
 | Day 3 | CSS Advanced & JS Basics | `CSS/Day 3 - 2April,2026/` and `JS/Day 3 - 2April,2026/` |
 | Day 4 | JavaScript Advanced | `JS/Day 4 - 3April,2026/` |
 | Day 5 | TypeScript & Angular | `TS Day-5 08-04-2026/` |
+| Day 6 | Advanced Angular | `Angular Day-6 09-04-2026/` |
 
 ---
 
