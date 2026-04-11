@@ -1,13 +1,13 @@
-# Capgemini Frontend With Angular 🚀
+# FrontEnd Capgemini 🚀
 
-A day-by-day learning repository documenting my frontend development journey as part of the **Capgemini Training Program**. This repository covers the fundamentals of web development — HTML, CSS, JavaScript — and will progressively move into Angular as the course advances.
+A day-by-day learning repository documenting my frontend development journey as part of the **Capgemini Training Program**. This repository covers the fundamentals of web development — HTML, CSS, JavaScript — and progresses into TypeScript and Angular.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-Capgemini-Frontend-With-Angular/
+FrontEnd Capgemini/
 │
 ├── HTML - Day 1/               # Introduction to HTML
 │   ├── Class Assignments/
@@ -37,11 +37,16 @@ Capgemini-Frontend-With-Angular/
 │       ├── Class Assignment/
 │       └── Home Assignment/
 │
-└── Angular Day-6 09-04-2026/   # Advanced Angular - Day 6
-    ├── Class Assignment/
-    └── Home Assignment/
-        ├── Task-1 Switch Code/
-        └── Task-2 Table List Card/
+├── Angular Day-6 09-04-2026/   # Advanced Angular - Day 6
+│   ├── Class Assignment/
+│   └── Home Assignment/
+│       ├── Task-1 Switch Code/
+│       └── Task-2 Table List Card/
+│
+└── Day 7 - 10April,2026/       # Angular practice and project work
+    ├── Class Assignments/
+    └── Home Assignments/
+        └── Task-1-Todo/
 ```
 
 ---
@@ -56,6 +61,7 @@ Capgemini-Frontend-With-Angular/
 | Day 4 | JavaScript Advanced | `JS/Day 4 - 3April,2026/` |
 | Day 5 | TypeScript & Angular | `TS Day-5 08-04-2026/` |
 | Day 6 | Advanced Angular | `Angular Day-6 09-04-2026/` |
+| Day 7 | Angular practice & project work | `Day 7 - 10April,2026/` |
 
 ---
 
