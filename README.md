@@ -43,10 +43,20 @@ FrontEnd Capgemini/
 │       ├── Task-1 Switch Code/
 │       └── Task-2 Table List Card/
 │
-└── Day 7 - 10April,2026/       # Angular practice and project work
-    ├── Class Assignments/
-    └── Home Assignments/
-        └── Task-1-Todo/
+├── Day 7 - 10April,2026/       # Angular practice and project work
+│   ├── Class Assignments/
+│   └── Home Assignments/
+│       └── Task-1-Todo/
+│
+├── Day 8 - 11April,2026/       # Angular practice
+│   └── Class Assignments/
+│       ├── task1/
+│       └── task2/
+│
+└── Day 9 - 13April,2026/       # Testing
+    └── Testing/
+        └── Class Assignments/
+            └── my-app/
 ```
 
 ---
@@ -62,6 +72,8 @@ FrontEnd Capgemini/
 | Day 5 | TypeScript & Angular | `TS Day-5 08-04-2026/` |
 | Day 6 | Advanced Angular | `Angular Day-6 09-04-2026/` |
 | Day 7 | Angular practice & project work | `Day 7 - 10April,2026/` |
+| Day 8 | Angular Practice | `Day 8 - 11April,2026/` |
+| Day 9 | Testing | `Day 9 - 13April,2026/` |
 
 ---
 
