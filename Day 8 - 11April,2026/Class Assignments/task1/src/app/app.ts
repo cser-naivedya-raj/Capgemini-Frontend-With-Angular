@@ -9,5 +9,5 @@ import { Reactiveforms } from './reactiveforms/reactiveforms';
   styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = signal('project1');
+  protected readonly title = signal('task1');
 }

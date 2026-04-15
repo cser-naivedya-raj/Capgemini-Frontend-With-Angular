@@ -1,13 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { Http } from '../http/http';
+import { CounterComponent } from './counter/counter';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Http],
+  standalone: true,
+  imports: [CounterComponent],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = signal('task2');
+  title = 'my-app';
 }
